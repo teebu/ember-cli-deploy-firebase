@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-deploy-firebase",
-  "version": "0.2.14",
+  "version": "0.5.0",
   "description": "an ember-cli-deploy plugin to deploy to firebase hosting.",
   "keywords": [
     "ember-addon",
@@ -13,46 +13,46 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "https://github.com/ibroadfo/ember-cli-deploy-firebase",
+  "repository": "https://github.com/AppMatch/ember-cli-deploy-firebase",
   "scripts": {
     "build": "ember build",
     "start": "ember server",
     "test": "./node_modules/mocha/bin/mocha  --timeout 15000 tests/unit/index-nodetest.js"
   },
   "dependencies": {
-    "ember-cli-babel": "^5.1.7",
-    "ember-cli-deploy-plugin": "^0.2.2",
-    "firebase-tools": "^3.0.6"
+    "ember-cli-babel": "^7.11.1",
+    "ember-cli-deploy-plugin": "^0.2.9",
+    "firebase-tools": "^7.8.1"
   },
   "devDependencies": {
-    "broccoli-asset-rev": "^2.4.5",
-    "chai": "^3.5.0",
-    "chai-as-promised": "^5.3.0",
-    "ember-ajax": "^2.4.1",
-    "ember-cli": "2.12.1",
-    "ember-cli-dependency-checker": "^1.3.0",
-    "ember-cli-deploy-plugin": "^0.2.6",
-    "ember-cli-eslint": "^3.0.0",
-    "ember-cli-htmlbars": "^1.1.1",
-    "ember-cli-htmlbars-inline-precompile": "^0.3.6",
-    "ember-cli-inject-live-reload": "^1.4.1",
-    "ember-cli-qunit": "^3.1.0",
-    "ember-cli-release": "0.2.9",
-    "ember-cli-shims": "^1.0.2",
-    "ember-cli-sri": "^2.1.0",
-    "ember-cli-uglify": "^1.2.0",
-    "ember-disable-prototype-extensions": "^1.1.0",
-    "ember-export-application-global": "^1.0.5",
-    "ember-load-initializers": "^0.6.0",
-    "ember-resolver": "^2.0.3",
-    "ember-source": "~2.12.0",
-    "ember-welcome-page": "^2.0.2",
+    "broccoli-asset-rev": "^3.0.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "ember-ajax": "^5.0.0",
+    "ember-cli": "3.14.0",
+    "ember-cli-dependency-checker": "^3.2.0",
+    "ember-cli-deploy-plugin": "^0.2.9",
+    "ember-cli-eslint": "^5.1.0",
+    "ember-cli-htmlbars": "^4.0.8",
+    "ember-cli-htmlbars-inline-precompile": "^3.0.1",
+    "ember-cli-inject-live-reload": "^2.0.2",
+    "ember-cli-qunit": "^4.4.0",
+    "ember-cli-release": "1.0.0-beta.2",
+    "ember-cli-shims": "^1.2.0",
+    "ember-cli-sri": "^2.1.1",
+    "ember-cli-uglify": "^3.0.0",
+    "ember-disable-prototype-extensions": "^1.1.3",
+    "ember-export-application-global": "^2.0.1",
+    "ember-load-initializers": "^2.1.1",
+    "ember-resolver": "^6.0.0",
+    "ember-source": "~3.14.2",
+    "ember-welcome-page": "^4.0.0",
     "loader.js": "^4.2.3",
-    "mocha": "^2.4.5",
-    "proxyquire": "^1.7.4"
+    "mocha": "^6.2.2",
+    "proxyquire": "^2.1.3"
   },
   "engines": {
-    "node": ">= 4"
+    "node": "8.* || >= 10.*"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
